@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="MrBeast" minlength="6" maxlength="30"><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" minlength="10" maxlength="30"><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="MrBeast2025@gmail.com"><br>
+
+        <label for="PhoneNumber">PhoneNumber:</label>
+        <input type="tel" id="PhoneNumber" placeholder="XXX-XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+        <label for="bday">Birthday:</label>
+        <input type="date" id="bday"><br>
+        
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="7" max="15" value="1"><br>
+
+        <label for="title">Title:</label>
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms.">Ms.</label>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <label for="PhD.">PhD.</label>
+        <input type="radio" id="PhD." value="PhD." name="title"><br>
+        
+        <label for="payment">Payment:</label>
+        <select id="payment">
+            <option value="visa">VisaCard</option>
+            <option value="MasterCard">MasterCard</option>
+            <option value="UPI">UPI</option>
+            <option value="BankAccount">BankAccount</option>
+            <option value="Etherum(ETH)">Etherum(ETH)</option>
+            <option value="Etherum(ETH)">c</option>
+            <option value="Litecoin(LTC)">Litecoin(LTC)</option>
+            <option value="Tether(USDT)">Tether(USDT)</option>
+            <option value="Binance Coin(BNB)">Binance Coin(BNB)</option>
+            <option value="Dogecoin(DOGE)">Dogecoin(DOGE)</option>
+            <option value="Monero(XMR)">Monero(XMR)</option>
+            <option value="Solana(SOL)">Solana(SOL)</option>
+
+        </select><br>
+
+       <label for="subscribe">SUBSCRIBE: </label>
+       <input type="checkbox" id="subscribe"><br>
+       
+       <label for="comment">Comment:</label>
+       <textarea id="comment" rows="5" cols="20"> </textarea><br>
+
+       <label for="file">File:</label>
+       <input type="file" id="file" accept="images/png , images/jpeg" exportparts="script"><br>
+
+       <input type="reset"><br><br>
+       <input type="submit">
+
+
+
+
+    </form>
+</body>
+</html>

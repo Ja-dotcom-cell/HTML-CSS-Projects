@@ -1,0 +1,17 @@
+li:hover{
+    background-color: hsla(300, 94%, 31%, 0.74);
+}
+
+li:not(:hover){
+    background-color: hsla(57, 74%, 73%, 0.74);
+}
+
+#greeting p{
+
+    background-color:hsl(240, 68%, 71%);
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display:block;
+}

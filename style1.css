@@ -1,0 +1,16 @@
+h1{
+   border: 3px solid hsl(0, 5%, 7%);
+   border-radius: 25px;
+
+}
+pre{
+    background-color:bisque;
+    font-size:100%;
+    font-family:'Gill Sans';
+    font-weight:100;
+    font-style:unset;
+  border-bottom: 3px solid rgb(131, 17, 17);
+  border-top: 3px solid rgb(68, 112, 3);
+  border-left: 3px solid rgb(198, 48, 21);
+  border-right: 3px solid rgb(163, 109, 9);
+}

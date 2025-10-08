@@ -1,0 +1,17 @@
+h1 {
+    text-shadow: 3px 3px 5px rgb(199, 20, 20), -2px -1px 3px rgb(11, 3, 3);
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(60, 56%, 70%);
+    box-shadow: 4px 4px 10px hsl(60, 56%, 40%);
+}
+
+div{
+  border: 2px solid rgb(4, 81, 129);
+  height: 75px;
+  overflow: scroll;
+     
+}

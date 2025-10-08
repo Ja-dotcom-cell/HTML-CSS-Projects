@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Message Loop</title>
+</head>
+<body>
+  <button onclick="showNextMessage()" 
+          style="font-size:20px; background-color:skyblue; color:white; border-radius:5px; padding:8px 16px;">
+      Click Me
+  </button>
+
+  <p id="Greeting">Hello</p>
+
+  <script>
+    
+    const messages = [
+      "Hello",
+      "Goodbye Phir nehi milna mujhse!",
+      "I love fishes"
+    ];
+
+    let index = 0;
+
+    function showNextMessage() {
+      
+    document.getElementById("Greeting").innerHTML = messages[index];
+
+      
+      index++;
+
+      if (index >= messages.length) {
+        index = 0;
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+</head>
+<body>
+   
+        <!--CSS Rule      Property="value"  so according to it I write the code -->
+    <button onclick="dosomething()" style="font-size:20px; background-color:skyblue; color:white; border-radius:5px; padding:8px 16px;">
+    Click Me
+    </button>
+    <p id="Greeting">Hello</p>
+    <script>
+        let toggle = 0;
+        function dosomething(){
+            if(toggle == 0){
+           document.getElementById("Greeting").innerHTML="GoodBye!Phir nehi milna mujshe!";
+            toggle = 1;
+        }
+        else{
+           document.getElementById("Greeting").innerHTML="Hello";
+            toggle = 0;
+        }
+        
+        }
+    </script>
+
+</body>
+</html>

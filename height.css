@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box ;
+
+}
+
+.container{
+   background-color: rgb(158, 142, 142);
+   height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    background-color: hsl(33, 27%, 47%);
+    border: 2px solid;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    text-align: center;
+    min-height: 50%;
+   border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+
+
+}
